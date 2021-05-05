@@ -153,7 +153,7 @@ struct IntType
     {   
         if (rhs == 0)
         {
-            std::cout << "\nerror, integer division by zero will crash the program!" << std::endl;
+            std::cout << "error, integer division by zero will crash the program!" << std::endl;
             std::cout << "returning lhs" << std::endl;
             return lhs;
         } else {
